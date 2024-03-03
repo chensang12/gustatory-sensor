@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="TCD1304Derives" targetName="TCD1304Derives.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3173557-23f0-47eb-a643-d11ddf4bab6b" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2YvlBhJOngHiuHPDWUIfm4o13gH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "OpenOCD 下载并运行.stlink.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.stlink">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TCD1304Derives.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TCD1304Derives" TARGET_NAME="TCD1304Derives.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TCD1304Derives" RUN_TARGET_NAME="TCD1304Derives.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CMSIS" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TCD1304Derives" TARGET_NAME="TCD1304Derives.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="TCD1304Derives" RUN_TARGET_NAME="TCD1304Derives.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\onedrive\DeskData\graduation_project\Software\TCD1304Derives\config\CMSIS.cfg" reset-type="INIT" download-type="ALWAYS">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stlink" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TCD1304Derives" TARGET_NAME="TCD1304Derives.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="TCD1304Derives" RUN_TARGET_NAME="TCD1304Derives.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\onedrive\DeskData\graduation_project\Software\TCD1304Derives\config\stlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.TCD1304Derives.elf" />
+      <item itemvalue="OpenOCD 下载并运行.CMSIS" />
+      <item itemvalue="OpenOCD 下载并运行.stlink" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c3173557-23f0-47eb-a643-d11ddf4bab6b" name="更改" comment="" />
+      <created>1701413799421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701413799421</updated>
+      <workItem from="1701413801779" duration="10736000" />
+      <workItem from="1701523428565" duration="397000" />
+      <workItem from="1701599089649" duration="4255000" />
+      <workItem from="1701943153161" duration="44000" />
+      <workItem from="1701943290443" duration="617000" />
+      <workItem from="1701950024265" duration="3726000" />
+      <workItem from="1702664139942" duration="35000" />
+      <workItem from="1702707885854" duration="14000" />
+      <workItem from="1702728413232" duration="595000" />
+      <workItem from="1703472432341" duration="7039000" />
+      <workItem from="1703606514809" duration="1051000" />
+      <workItem from="1703765781528" duration="595000" />
+      <workItem from="1703840182113" duration="1438000" />
+      <workItem from="1704635693823" duration="1671000" />
+      <workItem from="1704638255691" duration="18000" />
+      <workItem from="1704638298780" duration="190000" />
+      <workItem from="1704638528254" duration="44000" />
+      <workItem from="1704638612592" duration="2471000" />
+      <workItem from="1704710889929" duration="6320000" />
+      <workItem from="1704802816121" duration="7100000" />
+      <workItem from="1706886184672" duration="46000" />
+      <workItem from="1709344166878" duration="1350000" />
+      <workItem from="1709348785871" duration="2131000" />
+      <workItem from="1709351105066" duration="633000" />
+      <workItem from="1709391304107" duration="387000" />
+      <workItem from="1709449102444" duration="12450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
+          <line>236</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="BaselineGaussian" />
+        <watch expression="TestLiquidGaussian" />
+        <watch expression="ErrGaussian" />
+        <watch expression="CCD_DataBUff" />
+        <watch expression="Uart_CCD_DataBUff" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
