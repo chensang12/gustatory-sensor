@@ -1,0 +1,105 @@
+C51 COMPILER V9.60.7.0   I2C                                                               03/05/2024 18:44:03 PAGE 1   
+
+
+C51 COMPILER V9.60.7.0, COMPILATION OF MODULE I2C
+OBJECT MODULE PLACED IN .\Objects\I2C.obj
+COMPILER INVOKED BY: D:\Study\Keil_MDK\C51\BIN\C51.EXE I2C.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listing
+                    -s\I2C.lst) OBJECT(.\Objects\I2C.obj)
+
+line level    source
+
+   1          /*
+   2           * @Author: error: git config user.name && git config user.email & please set dead value or install git
+   3           * @Date: 2023-01-02 23:10:22
+   4           * @LastEditors: error: git config user.name && git config user.email & please set dead value or install g
+             -it
+   5           * @LastEditTime: 2023-01-02 23:34:13
+   6           * @FilePath: \AT24C02数据保存\I2C.c
+   7           * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: 
+             -https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+   8           */
+   9          #include <REGX52.H>
+  10          
+  11          //typedef unsigned char unsigned char;
+  12          //typedef unsigned int  unsigned int;
+  13          
+  14          sbit I2C_SDA = P2^0;
+  15          sbit I2C_SCL = P2^1;
+  16          
+  17          void I2C_Start(void)
+  18          {
+  19   1           I2C_SDA = 1;
+  20   1           I2C_SCL = 1;
+  21   1      
+  22   1           I2C_SDA = 0;
+  23   1           I2C_SCL = 0;
+  24   1      }
+  25          
+  26          
+  27          void I2C_SendByte(unsigned char Byte)
+  28          {
+  29   1           unsigned char i;
+  30   1           for ( i = 0; i < 8; i++)
+  31   1           {
+  32   2                
+  33   2                I2C_SDA = Byte & (0X80>>i);
+  34   2                I2C_SCL = 1;
+  35   2                I2C_SCL = 0;
+  36   2           }
+  37   1      }
+  38          
+  39          
+  40          unsigned char I2C_ReceiveByte(void)
+  41          {
+  42   1           unsigned char i,Byte=0x00;
+  43   1           I2C_SDA = 1;
+  44   1           for ( i = 0; i < 8; i++)
+  45   1           {
+  46   2                I2C_SCL = 1;
+  47   2                if(I2C_SDA){Byte |= (0x80>>i);}
+  48   2                I2C_SCL = 0;
+  49   2           }
+  50   1           return Byte;    
+  51   1      }
+  52          
+C51 COMPILER V9.60.7.0   I2C                                                               03/05/2024 18:44:03 PAGE 2   
+
+  53          unsigned char I2C_Receive_ACKBit(void)
+  54          {
+  55   1           unsigned char AckBit;
+  56   1           I2C_SDA = 1;
+  57   1           I2C_SCL = 1;
+  58   1           AckBit = I2C_SDA;
+  59   1           I2C_SCL = 0;
+  60   1           return AckBit;
+  61   1      }
+  62          
+  63          void I2C_Send_ACKBit(unsigned char AckBit)
+  64          {
+  65   1           I2C_SDA = AckBit;
+  66   1           I2C_SCL = 1;
+  67   1           I2C_SCL = 0;
+  68   1      }
+  69          
+  70          void I2C_Stop(void)
+  71          {
+  72   1           I2C_SDA = 0;
+  73   1           I2C_SCL = 1;
+  74   1           
+  75   1           I2C_SDA = 1;
+  76   1      }
+  77          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    109    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

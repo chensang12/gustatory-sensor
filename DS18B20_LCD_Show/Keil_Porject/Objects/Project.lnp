@@ -2,6 +2,8 @@
 ".\Objects\main.obj",
 ".\Objects\DS18B20.obj",
 ".\Objects\OneWire.obj",
-".\Objects\Delay.obj" 
+".\Objects\Delay.obj",
+".\Objects\I2C.obj" 
 TO ".\Objects\Project" 
 PRINT(".\Listings\Project.m51") RAMSIZE(256) 
+DISABLEWARNING (16) 
