@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="coded_lock" targetName="coded_lock.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ff37eb9-1dea-41a0-a27a-77668ab25be1" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1492" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
+    <option name="loadedFiles">
+      <list>
+        <option value="D:\STM32_HAL\en.stm32f1_svd\STM32F1_svd_V1.2\STM32F103.svd" />
+      </list>
+    </option>
+    <option name="nodes">
+      <map>
+        <entry key="STM32F103.svd" value="-E" />
+        <entry key="STM32F103.svd|g:GPIO" value="-E" />
+        <entry key="STM32F103.svd|p:GPIOA" value="-E" />
+        <entry key="STM32F103.svd|p:GPIOA|BRR" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOA|BSRR" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOA|CRH" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOA|CRL" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOA|IDR" value="HE" />
+        <entry key="STM32F103.svd|p:GPIOA|LCKR" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOA|ODR" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOB" value="-E" />
+        <entry key="STM32F103.svd|p:GPIOB|BRR" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOB|BSRR" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOB|CRH" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOB|CRL" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOB|IDR" value="HE" />
+        <entry key="STM32F103.svd|p:GPIOB|LCKR" value="HC" />
+        <entry key="STM32F103.svd|p:GPIOB|ODR" value="HC" />
+      </map>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../coded_lock\exportToHTML" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2ZhEyplZ4hwUao6CAETJVXLUfgh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OpenOCD 下载并运行.stlink.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/STM32_HAL/en.stm32f1_svd/STM32F1_svd_V1.2/STM32F103.svd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.stlink">
+    <configuration name="coded_lock.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coded_lock" TARGET_NAME="coded_lock.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="coded_lock" RUN_TARGET_NAME="coded_lock.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CMSIS" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coded_lock" TARGET_NAME="coded_lock.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="coded_lock" RUN_TARGET_NAME="coded_lock.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\onedrive\DeskData\graduation_project\LZL\coded_lock\config\CMSIS.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stlink" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="coded_lock" TARGET_NAME="coded_lock.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="coded_lock" RUN_TARGET_NAME="coded_lock.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\onedrive\DeskData\graduation_project\LZL\coded_lock\config\stlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.coded_lock.elf" />
+      <item itemvalue="OpenOCD 下载并运行.CMSIS" />
+      <item itemvalue="OpenOCD 下载并运行.stlink" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5ff37eb9-1dea-41a0-a27a-77668ab25be1" name="更改" comment="" />
+      <created>1702866167771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702866167771</updated>
+      <workItem from="1702866200916" duration="4270000" />
+      <workItem from="1702870534949" duration="1047000" />
+      <workItem from="1703032600606" duration="21618000" />
+      <workItem from="1703073478121" duration="93000" />
+      <workItem from="1703073583660" duration="2305000" />
+      <workItem from="1703075931133" duration="8687000" />
+      <workItem from="1703243082711" duration="15448000" />
+      <workItem from="1703307718484" duration="14005000" />
+      <workItem from="1703416821125" duration="70000" />
+      <workItem from="1703417304098" duration="393000" />
+      <workItem from="1703418469306" duration="24000" />
+      <workItem from="1703421599072" duration="222000" />
+      <workItem from="1703422703775" duration="52000" />
+      <workItem from="1703753881970" duration="1710000" />
+      <workItem from="1703765771982" duration="2702000" />
+      <workItem from="1704012955302" duration="23949000" />
+      <workItem from="1704608406922" duration="3939000" />
+      <workItem from="1704635690861" duration="5000" />
+      <workItem from="1709361856964" duration="5662000" />
+      <workItem from="1709378416351" duration="1462000" />
+      <workItem from="1709391300466" duration="274000" />
+      <workItem from="1709637847644" duration="307000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/stm32f1xx_it.c</url>
+          <line>252</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/stm32f1xx_it.c</url>
+          <line>210</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="KeyPassBuff" />
+        <watch expression="Key_In_Length" />
+        <watch expression="MyLock" />
+        <watch expression="Uart_RxBuff" />
+        <watch expression="Uart_RxBuff2" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+OLED测试文件:
+
+	SDA接 GPIOB->PIN8
+	SCL接 GPIOB->PIN9
+
+会显示字符串，接着显示数字
